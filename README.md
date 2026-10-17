@@ -1,25 +1,28 @@
-# Super Dimension Fortress Macross: Scrambled Valkyrie — Native Recompilation
+# Choujikuu Yousai Macross - Scrambled Valkyrie Recompilation
 
-Community preservation / native recompilation project targeting Windows.
+An experimental native Windows recompilation project based on
+RetroPortingToolKit/snesrecomp and recomp-ui.
 
-## Current local development status
+## Current development status
 
-The Windows `Macross.exe` has been compiled and tested locally with the SNESRecomp runtime and the `recomp-ui` Dear ImGui launcher. Gameplay, graphics, audio, and ROM selection have been reported working. **The compiled binary and game-derived code are not uploaded here.**
+- Native Windows executable successfully built
+- Graphical ROM selection launcher functional
+- SNES video and audio operational
+- Game successfully launched and tested
+- Clean application exit verified
 
-## Build dependencies
+## Copyright and distribution
 
-- [RetroPortingToolKit/snesrecomp](https://github.com/RetroPortingToolKit/snesrecomp)
-- [RetroPortingToolKit/recomp-ui](https://github.com/RetroPortingToolKit/recomp-ui)
-- CMake, Ninja, Clang/MSVC toolchain, SDL3
+This repository does not distribute the original game ROM, BIOS,
+firmware, or ROM-derived generated code.
 
-The game project uses `snesrecomp_target_sdl(Macross)`, `snesrecomp_target_desktop_host(Macross)`, and `recomp_target_launcher_ui(Macross CONSOLE snes)` in CMake.
+The playable executable is currently withheld from public distribution
+pending review of applicable redistribution rights.
 
-## Packaging / preservation
+Users must provide their own legally obtained compatible game data
+for local testing.
 
-The tested Windows output is in the local `releases/build-launcher/` directory on the development PC. Use the preservation script supplied separately to back up the tested files and generate a ZIP.
+## Project status
 
-**No ROMs, proprietary game artwork/audio, ROM-derived generated code, save files, or assets without redistribution rights should be committed or included in public releases.** A compatible legally obtained ROM is supplied by the user through the launcher.
-
-Third-party framework components retain their own licenses. Verify provenance and licenses of all binary runtime dependencies before public distribution.
-
-This repository is not affiliated with or endorsed by the original game's rights holders.
+Experimental development project. Not affiliated with or endorsed
+by the original game's rights holders.

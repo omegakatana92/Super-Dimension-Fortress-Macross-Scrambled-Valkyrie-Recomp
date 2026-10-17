@@ -1,0 +1,42 @@
+# Game images, disc images and archives
+*.sfc
+*.smc
+*.rom
+*.iso
+*.cue
+*.chd
+*.bin
+*.7z
+*.zip
+# Generated code from copyrighted game data: review rights before publishing
+/generated/
+/releases/generated/
+# Local binaries and build trees
+/build/
+/build-*/
+/releases/build-*/
+/Macross.exe
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.lib
+# Local development/game data and saves
+/game/
+/roms/
+/saves/
+*.srm
+*.sav
+*.state
+config.ini
+rom.cfg
+keybinds.ini
+# Framework clones (use upstream as dependency)
+/snesrecomp/
+/recomp-ui/
+/releases/snesrecomp/
+/releases/recomp-ui/
+# User/private backup and local packaging
+/Macross-Preserved-*/
+/Macross-ROM-Free-Release-*/

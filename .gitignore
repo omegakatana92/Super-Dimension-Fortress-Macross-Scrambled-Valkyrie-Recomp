@@ -21,7 +21,6 @@ CMakeFiles/
 *.lib
 *.o
 *.a
-CMakeLists.txt
 *.cmake
 CMakeCache.txt
 *.sav
@@ -33,3 +32,7 @@ Macross-Preserved-*/
 Macross-ROM-Free-Release-*/
 Macross-Release-Test-*/
 Macross-GitHub-Safe/
+
+# Upstream framework clones (fetched by setup scripts)
+snesrecomp/
+recomp-ui/
